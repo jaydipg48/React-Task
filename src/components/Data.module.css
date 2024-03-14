@@ -1,0 +1,89 @@
+/* .BackGround {
+    background-color: rgba(7, 31, 70, 0.655);
+}
+
+.heading {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.imagetag {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.detailbox {
+    border: 2px solid rgba(130, 208, 217, 0.852);
+    gap: 5px; 
+    padding: 10px; 
+}
+
+.btnpos {
+    position: absolute; 
+    bottom: 5px;
+    right: 5px;
+    
+} */
+
+
+
+.container {
+    background-color: rgba(7, 31, 70, 0.655);
+    padding: 20px;
+}
+
+.heading {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.imagetag {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.detailbox {
+    border: 2px solid rgba(130, 208, 217, 0.852);
+    gap: 5px;
+    padding: 10px;
+}
+
+.btnpos {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.form-label {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.8);
+    appearance: none;
+}
+
+.searchInput {
+    grid-column: span 2;
+}
